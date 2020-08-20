@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BaseMVVMProject</string>
+
+    <string name="ok_btn">OK</string>
+    <string name="error">Error</string>
+
+    <string name="txt_no_internet_error_message">No internet connection.</string>
+    <string name="txt_connect_timeout_error_message">Connect timeout.</string>
+    <string name="txt_unknown_error_message">Unknown error.</string>
+    <string name="txt_unavailable_error_message">Unavailable error.</string>
+</resources>
