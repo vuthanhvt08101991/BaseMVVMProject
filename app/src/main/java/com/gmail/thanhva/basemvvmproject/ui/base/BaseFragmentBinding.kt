@@ -28,8 +28,9 @@ import org.koin.androidx.viewmodel.ext.android.sharedViewModel
  *  Create by thanhva on 19/08/2020
  *  Class BaseFragmentBinding
  */
-abstract class BaseFragmentBinding<ViewBinding : ViewDataBinding, ViewModel : BaseViewModel> :
-    Fragment(), SwipeBackLayout.SwipeBackListener {
+abstract class BaseFragmentBinding<ViewBinding : ViewDataBinding, ViewModel : BaseViewModel> : Fragment(),
+    SwipeBackLayout.SwipeBackListener {
+
     protected val shareViewModel: ShareViewModel by sharedViewModel()
 
     lateinit var viewBinding: ViewBinding
@@ -105,8 +106,7 @@ abstract class BaseFragmentBinding<ViewBinding : ViewDataBinding, ViewModel : Ba
         }
 
         viewBinding.apply {
-            // TODO: remove comments
-            // setVariable(BR.viewModel, viewModel)
+             setVariable(BR.viewModel, viewModel)
             root.isClickable = true
             root.isFocusable = true
             lifecycleOwner = viewLifecycleOwner
