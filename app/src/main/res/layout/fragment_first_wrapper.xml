@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.gmail.thanhva.basemvvmproject.ui.screen.first_screen.wrapper.FirstWrapperViewModel" />
+    </data>
+
+    <FrameLayout
+        android:id="@+id/frame_first_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+</layout>

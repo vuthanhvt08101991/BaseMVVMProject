@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigationFirst"
+        android:icon="@drawable/ic_first"
+        android:title="@string/title_navigation_first"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/navigationSecond"
+        android:icon="@drawable/ic_second"
+        android:title="@string/title_navigation_second"
+        app:showAsAction="ifRoom" />
+</menu>
